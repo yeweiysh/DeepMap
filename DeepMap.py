@@ -102,6 +102,7 @@ if __name__ == "__main__":
     # ds_name = sys.argv[4] # dataset name
     dataset = ['Synthie', 'BZR_MD', 'COX2_MD', 'DHFR', 'PTC_MM', 'PTC_MR', 'PTC_FM', 'PTC_FR', 'ENZYMES', 'KKI', 'IMDB-BINARY', 'IMDB-MULTI']
     hasnodelabel = [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+    hasnodeattribute = [1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0]
 
     filter_size = 3
     kfolds = 10
